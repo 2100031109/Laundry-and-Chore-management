@@ -1,0 +1,75 @@
+/* Navbar Container */
+nav {
+    background: linear-gradient(90deg, #ff8c00, #ffcc00); /* Gradient background */
+    padding: 1rem; /* Padding for better spacing */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    position: fixed; /* Stays fixed at the top */
+    width: 250px; /* Fixed width for the sidebar */
+    height: 100%; /* Full height of the viewport */
+    top: 0; /* Positioning at the top */
+    left: 0; /* Align to the left side */
+    z-index: 1000; /* Ensure it stays above other content */
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the left */
+  }
+  
+  /* Brand Style */
+  .navbar-brand {
+    font-size: 2rem; /* Larger text for the brand */
+    font-weight: bold; /* Bold for emphasis */
+    color: white; /* White color for brand */
+    text-transform: uppercase; /* Uppercase letters for brand */
+    margin-bottom: 2rem; /* Space below brand */
+  }
+  
+  /* Navbar Links */
+  ul {
+    list-style: none; /* No bullet points */
+    display: flex; /* Flexbox for horizontal alignment */
+    flex-direction: column; /* Stack links vertically */
+    gap: 1.5rem; /* Space between the links */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    width: 100%; /* Full width of navbar */
+  }
+  
+  /* Individual Link Items */
+  li {
+    width: 100%; /* Full width for each button */
+  }
+  
+  /* Link Styling */
+  button {
+    color: white; /* White text */
+    background-color: transparent; /* Transparent button background */
+    border: 2px solid transparent; /* Transparent border */
+    font-size: 1rem; /* Adjust font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    padding: 10px 15px; /* Padding for clickability */
+    text-align: left; /* Align text to the left */
+    transition: all 0.3s ease; /* Smooth transition effect */
+    border-radius: 4px; /* Slightly rounded corners */
+    width: 100%; /* Full width of button */
+  }
+  
+  /* Hover Effect for Buttons */
+  button:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Light background on hover */
+    color: #fff; /* White text on hover */
+    border: 2px solid white; /* White border on hover */
+  }
+  
+  /* Active Link Styling */
+  button:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); /* Subtle shadow for focus */
+  }
+  
+  /* Responsive Navbar for Smaller Screens */
+  @media (max-width: 768px) {
+    nav {
+      width: 200px; /* Adjust width for mobile */
+    }
+  }
+  

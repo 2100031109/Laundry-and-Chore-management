@@ -1,0 +1,70 @@
+/* Chore Container */
+.chore-container {
+    max-width: 400px; /* Limit the width */
+    margin: auto; /* Center the container */
+    padding: 20px; /* Padding around the container */
+    background-color: #f9f9f9; /* Light background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Form Styling */
+  .chore-form {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack elements vertically */
+  }
+  
+  /* Form Group Styling */
+  .form-group {
+    margin-bottom: 1.5rem; /* Space between form groups */
+  }
+  
+  /* Label Styling */
+  label {
+    margin-bottom: 0.5rem; /* Space below label */
+    font-weight: bold; /* Make labels bold */
+  }
+  
+  /* Input Field Styling */
+  .input-field {
+    padding: 10px; /* Padding inside input */
+    border: 1px solid #ccc; /* Border for input */
+    border-radius: 4px; /* Rounded corners */
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding in width */
+  }
+  
+  /* Button Styling */
+  .submit-button {
+    padding: 10px; /* Padding inside button */
+    background-color: #ff8c00; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Transition for hover effect */
+  }
+  
+  /* Button Hover Effect */
+  .submit-button:hover {
+    background-color: #ffcc00; /* Lighter background on hover */
+  }
+  
+  /* Chore List Styling */
+  .chore-list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin-top: 1.5rem; /* Space above list */
+  }
+  
+  /* Individual Chore Item Styling */
+  .chore-item {
+    padding: 10px; /* Padding for each chore item */
+    border-bottom: 1px solid #ddd; /* Bottom border for separation */
+  }
+  
+  /* Last Chore Item without Bottom Border */
+  .chore-item:last-child {
+    border-bottom: none; /* Remove bottom border for the last item */
+  }
+  
